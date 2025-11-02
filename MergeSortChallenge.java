@@ -5,7 +5,7 @@ public class MergeSortChallenge {
     
     public static int[] mergeSort(int[] arr) {
         if (arr.length <= 1) {
-            return arr; // Base case
+            return arr;
         }
 
         int mid = arr.length / 2;
